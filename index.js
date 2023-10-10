@@ -29,6 +29,6 @@ app.get('/', (req,res) =>{
 mongoose.connect('mongodb+srv://'+ process.env.DB_LOGIN + '' + ':' + process.env.DB_PASSWORD + '@blog.cadpuaq.mongodb.net/bancodedados?retryWrites=true&w=majority') // conectar ao banco de dados
 .then(() => {
     console.log("Conectamos ao mongo DB")
-    app.listen(5000) // Vai ler a porta
+    app.listen(3000) // Vai ler a porta
 })
 .catch((err) => console.log(err))
