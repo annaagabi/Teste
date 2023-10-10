@@ -10,7 +10,7 @@
   "main": "consumo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js localhost 5000"
+    "start": "nodemon ./index.js localhost 3000"
   },
   "keywords": [],
   "author": "",
